@@ -1,17 +1,11 @@
 
-#include "Person.hpp"
+#include "Employee.hpp"
 
 
 int main()
 {
-	Person a;
-
-	a.Print();
-	a.setName("BOBBYY");
-	a.Print();
-	a.setName("HERROOORROOO");
-	a.Print();
+	Employee joe("Joe", "Butcher");
+	joe.Print();
 	
-	return 0;
 }
 

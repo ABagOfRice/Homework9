@@ -1,4 +1,4 @@
 
 #include "Employee.hpp"
 
-void Employee::Print() const { Person::Print(); std::cout << Employee::job << std::endl; }
+void Employee::Print() const { Person::Print(); std::cout <<Employee::job << std::endl; }

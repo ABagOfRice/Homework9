@@ -5,7 +5,7 @@
 
 class Employee : public Person {
 public:
-	Employee(const std::string & name, const std::string & job) :Person(name) {; } 
+	Employee(const std::string & name, const std::string & job): job(job) ,Person(name)  {; } 
 	~Employee() { ; } 
 	
 	void Print() const;

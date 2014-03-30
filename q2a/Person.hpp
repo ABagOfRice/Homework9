@@ -1,6 +1,5 @@
 #ifndef PERSON_HPP_
 #define PERSON_HPP_
-
 #include <string>
 #include <iostream>
 
@@ -14,7 +13,7 @@ public:
 	~Person(){}
 	void setName(const std::string &newName){ name = newName; }
 	std::string getName(){ return name; }
-	void Print() const;
+	virtual void Print() const;
 
 
 
