@@ -12,7 +12,7 @@ public:
 
 private:
 	std::string job;
-}
+};
 
 
 
